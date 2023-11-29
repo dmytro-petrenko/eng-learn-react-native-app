@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* EnglishLearningAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EnglishLearningAppTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-EnglishLearningApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-EnglishLearningApp.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-EnglishLearningApp-EnglishLearningAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-EnglishLearningApp-EnglishLearningAppTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AC0FF40FC9CA4B6D89251566 /* Lucida-Calligraphy-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DA7C36F43B94B22BB4E429B /* Lucida-Calligraphy-Black.otf */; };
+		42C9253CC66A4E63A04A66C3 /* Lucida-Calligraphy-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 804958DEB345484D9569F3AB /* Lucida-Calligraphy-Bold.otf */; };
+		AD833D8A3A00440BB10597F3 /* Lucida-Calligraphy-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6B25B3856A4895A9F561C7 /* Lucida-Calligraphy-Italic.ttf */; };
+		E39566C826DD4F2F83FE4FA0 /* Lucida Calligraphy.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 5A32103C86D847FAA509E97A /* Lucida Calligraphy.TTF */; };
+		E74FCF7BE0DD4D078654E565 /* Times-New-Roman-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A6BDA56A56C48469E7FB7D6 /* Times-New-Roman-Bold-Italic.ttf */; };
+		137EF773DF3949479764B452 /* Times-New-Roman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7150100492EC465688429097 /* Times-New-Roman-Bold.ttf */; };
+		ECB1506D3207497FBA7B618B /* Times-New-Roman-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3737EB2CD22E4EE18F74BF94 /* Times-New-Roman-Italic.ttf */; };
+		752DFC0579274867BE6CB467 /* Times-New-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9449CC476C544A2FBA8B6D5B /* Times-New-Roman.ttf */; };
+		6181500B7B5445C1B5B922E9 /* Times-New-Roman-MTStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C681044A57047D7B11363DB /* Times-New-Roman-MTStd-Bold.ttf */; };
+		2B2AFDBE0BF44C0AA9E40D2E /* TimesNewRomanMTStd-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = AEC59EC4C34C43DDB5966888 /* TimesNewRomanMTStd-Bold.woff */; };
+		DE726C6A8AF243D59803DA4A /* TimesNewRomanMTStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DDDCAB5285D4B788A6246E9 /* TimesNewRomanMTStd-Bold.ttf */; };
+		2366FF0370394F40B052A343 /* TimesNewRomanMTStd-BoldCond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 605EE1DA93104CEA90DEADC1 /* TimesNewRomanMTStd-BoldCond.ttf */; };
+		CAFD9C98026B4C45B9374C44 /* TimesNewRomanMTStd-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 693EC2EE748846C5838817B1 /* TimesNewRomanMTStd-BoldIt.ttf */; };
+		AEC1B3E920D441218169B84E /* TimesNewRomanMTStd-Cond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A90035535FA34630ADE44F22 /* TimesNewRomanMTStd-Cond.ttf */; };
+		FDED0AA50A5947C6B088E64D /* TimesNewRomanMTStd-CondIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74EA3DBD7807487892D35FBE /* TimesNewRomanMTStd-CondIt.ttf */; };
+		4F1168CCE1684D33B00A90AE /* TimesNewRomanMTStd-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13EF5B68EE1840F7B4834302 /* TimesNewRomanMTStd-Italic.ttf */; };
+		5431476FD29A46B3AD32C755 /* TimesNewRomanMTStd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C55652A22B6B40BF871EEB51 /* TimesNewRomanMTStd.ttf */; };
+		9E84C0DD684840E785D2E76F /* TimesNewRomanMTStd-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = EB065DF21B0A410F82B5D543 /* TimesNewRomanMTStd-Bold.eot */; };
+		273B15E3DD244C068431CEEC /* TimesNewRomanMTStd-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 359C19581E53400B87CFB5EF /* TimesNewRomanMTStd-Bold.woff2 */; };
+		120A1C371E9A43AC8E4D91BB /* TimesNewRomanMTStd-BoldCond.eot in Resources */ = {isa = PBXBuildFile; fileRef = C91EE9C7C8A942E2968987BC /* TimesNewRomanMTStd-BoldCond.eot */; };
+		79E00EA87D2A404AAE9F2D40 /* TimesNewRomanMTStd-BoldCond.woff in Resources */ = {isa = PBXBuildFile; fileRef = 27185802B9354D6A91AB60D2 /* TimesNewRomanMTStd-BoldCond.woff */; };
+		FEDC5C60DD0446F7B6D7BA73 /* TimesNewRomanMTStd-BoldCond.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A513812A2AE94457AE010838 /* TimesNewRomanMTStd-BoldCond.woff2 */; };
+		F19C08CD6DFB42F794447731 /* TimesNewRomanMTStd-BoldIt.eot in Resources */ = {isa = PBXBuildFile; fileRef = F37362E3E52240B59056F67A /* TimesNewRomanMTStd-BoldIt.eot */; };
+		ACFB9A6F64E34634ACAD0B8E /* TimesNewRomanMTStd-BoldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 06F625F600824316B05AE332 /* TimesNewRomanMTStd-BoldIt.woff */; };
+		42E69115E55B44A2B638209A /* TimesNewRomanMTStd-BoldIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 039DC51A64454C51BABDCC9D /* TimesNewRomanMTStd-BoldIt.woff2 */; };
+		F9FBD4D304A146AA83A90351 /* TimesNewRomanMTStd-Cond.eot in Resources */ = {isa = PBXBuildFile; fileRef = 5F8B668C8A9D4017A33DB8B1 /* TimesNewRomanMTStd-Cond.eot */; };
+		A516E87CA82B41CB9F758BCC /* TimesNewRomanMTStd-Cond.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6205CF50E1CA4028BE6B386D /* TimesNewRomanMTStd-Cond.woff */; };
+		E9F8992B1EA04FF19F53966C /* TimesNewRomanMTStd-Cond.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C5C75484916A43B29DA77472 /* TimesNewRomanMTStd-Cond.woff2 */; };
+		89FC5517CEC14B0FAC4EC749 /* TimesNewRomanMTStd-CondIt.eot in Resources */ = {isa = PBXBuildFile; fileRef = FB7FCA24B6594E22824520CD /* TimesNewRomanMTStd-CondIt.eot */; };
+		54A5DC168580432793FC7A96 /* TimesNewRomanMTStd-CondIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 17F4E9B017664CB3A765DBA7 /* TimesNewRomanMTStd-CondIt.woff */; };
+		0334D5463C234B979D5F31E5 /* TimesNewRomanMTStd-CondIt.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6CBCCB3B31F0435C8F9BB763 /* TimesNewRomanMTStd-CondIt.woff2 */; };
+		A0E013EA420B413FA46B8040 /* TimesNewRomanMTStd-Italic.eot in Resources */ = {isa = PBXBuildFile; fileRef = E45784066F0B4B7E8123E68B /* TimesNewRomanMTStd-Italic.eot */; };
+		7A38718C84C848198682C644 /* TimesNewRomanMTStd-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = F766EDACF8BF4326A66FB873 /* TimesNewRomanMTStd-Italic.woff */; };
+		EA249E04C5EE4B30BC98CAE1 /* TimesNewRomanMTStd-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 1637B1EEA4C3433C96CD4B0D /* TimesNewRomanMTStd-Italic.woff2 */; };
+		930425EAF8BC4682A36ED5FF /* TimesNewRomanMTStd.eot in Resources */ = {isa = PBXBuildFile; fileRef = 2CC79F75C73143729D990A79 /* TimesNewRomanMTStd.eot */; };
+		C7179B50B7D64633AC68D6B3 /* TimesNewRomanMTStd.woff in Resources */ = {isa = PBXBuildFile; fileRef = 96496C4BA2D54D5C80076BAC /* TimesNewRomanMTStd.woff */; };
+		D07BFC47266A4ABE8F878981 /* TimesNewRomanMTStd.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = F30627D56DA64F078B130E63 /* TimesNewRomanMTStd.woff2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = EnglishLearningApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* EnglishLearningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishLearningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EnglishLearningAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishLearningAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EnglishLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EnglishLearningApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = EnglishLearningApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EnglishLearningApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EnglishLearningApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EnglishLearningApp/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-EnglishLearningApp-EnglishLearningAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnglishLearningApp-EnglishLearningAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-EnglishLearningApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishLearningApp.debug.xcconfig"; path = "Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-EnglishLearningApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishLearningApp.release.xcconfig"; path = "Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-EnglishLearningApp-EnglishLearningAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishLearningApp-EnglishLearningAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-EnglishLearningApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnglishLearningApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EnglishLearningApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-EnglishLearningApp-EnglishLearningAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishLearningApp-EnglishLearningAppTests.release.xcconfig"; path = "Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6DA7C36F43B94B22BB4E429B /* Lucida-Calligraphy-Black.otf */ = {isa = PBXFileReference; name = "Lucida-Calligraphy-Black.otf"; path = "../src/assets/fonts/Lucida-Calligraphy-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		804958DEB345484D9569F3AB /* Lucida-Calligraphy-Bold.otf */ = {isa = PBXFileReference; name = "Lucida-Calligraphy-Bold.otf"; path = "../src/assets/fonts/Lucida-Calligraphy-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D6B25B3856A4895A9F561C7 /* Lucida-Calligraphy-Italic.ttf */ = {isa = PBXFileReference; name = "Lucida-Calligraphy-Italic.ttf"; path = "../src/assets/fonts/Lucida-Calligraphy-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A32103C86D847FAA509E97A /* Lucida Calligraphy.TTF */ = {isa = PBXFileReference; name = "Lucida Calligraphy.TTF"; path = "../src/assets/fonts/Lucida Calligraphy.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A6BDA56A56C48469E7FB7D6 /* Times-New-Roman-Bold-Italic.ttf */ = {isa = PBXFileReference; name = "Times-New-Roman-Bold-Italic.ttf"; path = "../src/assets/fonts/Times-New-Roman-Bold-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7150100492EC465688429097 /* Times-New-Roman-Bold.ttf */ = {isa = PBXFileReference; name = "Times-New-Roman-Bold.ttf"; path = "../src/assets/fonts/Times-New-Roman-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3737EB2CD22E4EE18F74BF94 /* Times-New-Roman-Italic.ttf */ = {isa = PBXFileReference; name = "Times-New-Roman-Italic.ttf"; path = "../src/assets/fonts/Times-New-Roman-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9449CC476C544A2FBA8B6D5B /* Times-New-Roman.ttf */ = {isa = PBXFileReference; name = "Times-New-Roman.ttf"; path = "../src/assets/fonts/Times-New-Roman.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C681044A57047D7B11363DB /* Times-New-Roman-MTStd-Bold.ttf */ = {isa = PBXFileReference; name = "Times-New-Roman-MTStd-Bold.ttf"; path = "../src/assets/fonts/Times-New-Roman-MTStd-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AEC59EC4C34C43DDB5966888 /* TimesNewRomanMTStd-Bold.woff */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Bold.woff"; path = "../src/assets/fonts/TimesNewRomanMTStd-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7DDDCAB5285D4B788A6246E9 /* TimesNewRomanMTStd-Bold.ttf */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Bold.ttf"; path = "../src/assets/fonts/TimesNewRomanMTStd-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		605EE1DA93104CEA90DEADC1 /* TimesNewRomanMTStd-BoldCond.ttf */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldCond.ttf"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldCond.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		693EC2EE748846C5838817B1 /* TimesNewRomanMTStd-BoldIt.ttf */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldIt.ttf"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A90035535FA34630ADE44F22 /* TimesNewRomanMTStd-Cond.ttf */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Cond.ttf"; path = "../src/assets/fonts/TimesNewRomanMTStd-Cond.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74EA3DBD7807487892D35FBE /* TimesNewRomanMTStd-CondIt.ttf */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-CondIt.ttf"; path = "../src/assets/fonts/TimesNewRomanMTStd-CondIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13EF5B68EE1840F7B4834302 /* TimesNewRomanMTStd-Italic.ttf */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Italic.ttf"; path = "../src/assets/fonts/TimesNewRomanMTStd-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C55652A22B6B40BF871EEB51 /* TimesNewRomanMTStd.ttf */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd.ttf"; path = "../src/assets/fonts/TimesNewRomanMTStd.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB065DF21B0A410F82B5D543 /* TimesNewRomanMTStd-Bold.eot */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Bold.eot"; path = "../src/assets/fonts/TimesNewRomanMTStd-Bold.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		359C19581E53400B87CFB5EF /* TimesNewRomanMTStd-Bold.woff2 */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Bold.woff2"; path = "../src/assets/fonts/TimesNewRomanMTStd-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C91EE9C7C8A942E2968987BC /* TimesNewRomanMTStd-BoldCond.eot */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldCond.eot"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldCond.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27185802B9354D6A91AB60D2 /* TimesNewRomanMTStd-BoldCond.woff */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldCond.woff"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldCond.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A513812A2AE94457AE010838 /* TimesNewRomanMTStd-BoldCond.woff2 */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldCond.woff2"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldCond.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F37362E3E52240B59056F67A /* TimesNewRomanMTStd-BoldIt.eot */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldIt.eot"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldIt.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06F625F600824316B05AE332 /* TimesNewRomanMTStd-BoldIt.woff */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldIt.woff"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		039DC51A64454C51BABDCC9D /* TimesNewRomanMTStd-BoldIt.woff2 */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-BoldIt.woff2"; path = "../src/assets/fonts/TimesNewRomanMTStd-BoldIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F8B668C8A9D4017A33DB8B1 /* TimesNewRomanMTStd-Cond.eot */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Cond.eot"; path = "../src/assets/fonts/TimesNewRomanMTStd-Cond.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6205CF50E1CA4028BE6B386D /* TimesNewRomanMTStd-Cond.woff */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Cond.woff"; path = "../src/assets/fonts/TimesNewRomanMTStd-Cond.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5C75484916A43B29DA77472 /* TimesNewRomanMTStd-Cond.woff2 */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Cond.woff2"; path = "../src/assets/fonts/TimesNewRomanMTStd-Cond.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB7FCA24B6594E22824520CD /* TimesNewRomanMTStd-CondIt.eot */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-CondIt.eot"; path = "../src/assets/fonts/TimesNewRomanMTStd-CondIt.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		17F4E9B017664CB3A765DBA7 /* TimesNewRomanMTStd-CondIt.woff */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-CondIt.woff"; path = "../src/assets/fonts/TimesNewRomanMTStd-CondIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CBCCB3B31F0435C8F9BB763 /* TimesNewRomanMTStd-CondIt.woff2 */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-CondIt.woff2"; path = "../src/assets/fonts/TimesNewRomanMTStd-CondIt.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E45784066F0B4B7E8123E68B /* TimesNewRomanMTStd-Italic.eot */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Italic.eot"; path = "../src/assets/fonts/TimesNewRomanMTStd-Italic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F766EDACF8BF4326A66FB873 /* TimesNewRomanMTStd-Italic.woff */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Italic.woff"; path = "../src/assets/fonts/TimesNewRomanMTStd-Italic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1637B1EEA4C3433C96CD4B0D /* TimesNewRomanMTStd-Italic.woff2 */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd-Italic.woff2"; path = "../src/assets/fonts/TimesNewRomanMTStd-Italic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CC79F75C73143729D990A79 /* TimesNewRomanMTStd.eot */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd.eot"; path = "../src/assets/fonts/TimesNewRomanMTStd.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96496C4BA2D54D5C80076BAC /* TimesNewRomanMTStd.woff */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd.woff"; path = "../src/assets/fonts/TimesNewRomanMTStd.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F30627D56DA64F078B130E63 /* TimesNewRomanMTStd.woff2 */ = {isa = PBXFileReference; name = "TimesNewRomanMTStd.woff2"; path = "../src/assets/fonts/TimesNewRomanMTStd.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-EnglishLearningApp-EnglishLearningAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-EnglishLearningApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* EnglishLearningAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* EnglishLearningAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = EnglishLearningAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* EnglishLearningApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = EnglishLearningApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-EnglishLearningApp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-EnglishLearningApp-EnglishLearningAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* EnglishLearningApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* EnglishLearningAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				51D0FD53C3584D339769BDF2 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* EnglishLearningApp.app */,
+				00E356EE1AD99517003FC87E /* EnglishLearningAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-EnglishLearningApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-EnglishLearningApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-EnglishLearningApp-EnglishLearningAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-EnglishLearningApp-EnglishLearningAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51D0FD53C3584D339769BDF2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				6DA7C36F43B94B22BB4E429B /* Lucida-Calligraphy-Black.otf */,
+				804958DEB345484D9569F3AB /* Lucida-Calligraphy-Bold.otf */,
+				3D6B25B3856A4895A9F561C7 /* Lucida-Calligraphy-Italic.ttf */,
+				5A32103C86D847FAA509E97A /* Lucida Calligraphy.TTF */,
+				2A6BDA56A56C48469E7FB7D6 /* Times-New-Roman-Bold-Italic.ttf */,
+				7150100492EC465688429097 /* Times-New-Roman-Bold.ttf */,
+				3737EB2CD22E4EE18F74BF94 /* Times-New-Roman-Italic.ttf */,
+				9449CC476C544A2FBA8B6D5B /* Times-New-Roman.ttf */,
+				2C681044A57047D7B11363DB /* Times-New-Roman-MTStd-Bold.ttf */,
+				AEC59EC4C34C43DDB5966888 /* TimesNewRomanMTStd-Bold.woff */,
+				7DDDCAB5285D4B788A6246E9 /* TimesNewRomanMTStd-Bold.ttf */,
+				605EE1DA93104CEA90DEADC1 /* TimesNewRomanMTStd-BoldCond.ttf */,
+				693EC2EE748846C5838817B1 /* TimesNewRomanMTStd-BoldIt.ttf */,
+				A90035535FA34630ADE44F22 /* TimesNewRomanMTStd-Cond.ttf */,
+				74EA3DBD7807487892D35FBE /* TimesNewRomanMTStd-CondIt.ttf */,
+				13EF5B68EE1840F7B4834302 /* TimesNewRomanMTStd-Italic.ttf */,
+				C55652A22B6B40BF871EEB51 /* TimesNewRomanMTStd.ttf */,
+				EB065DF21B0A410F82B5D543 /* TimesNewRomanMTStd-Bold.eot */,
+				359C19581E53400B87CFB5EF /* TimesNewRomanMTStd-Bold.woff2 */,
+				C91EE9C7C8A942E2968987BC /* TimesNewRomanMTStd-BoldCond.eot */,
+				27185802B9354D6A91AB60D2 /* TimesNewRomanMTStd-BoldCond.woff */,
+				A513812A2AE94457AE010838 /* TimesNewRomanMTStd-BoldCond.woff2 */,
+				F37362E3E52240B59056F67A /* TimesNewRomanMTStd-BoldIt.eot */,
+				06F625F600824316B05AE332 /* TimesNewRomanMTStd-BoldIt.woff */,
+				039DC51A64454C51BABDCC9D /* TimesNewRomanMTStd-BoldIt.woff2 */,
+				5F8B668C8A9D4017A33DB8B1 /* TimesNewRomanMTStd-Cond.eot */,
+				6205CF50E1CA4028BE6B386D /* TimesNewRomanMTStd-Cond.woff */,
+				C5C75484916A43B29DA77472 /* TimesNewRomanMTStd-Cond.woff2 */,
+				FB7FCA24B6594E22824520CD /* TimesNewRomanMTStd-CondIt.eot */,
+				17F4E9B017664CB3A765DBA7 /* TimesNewRomanMTStd-CondIt.woff */,
+				6CBCCB3B31F0435C8F9BB763 /* TimesNewRomanMTStd-CondIt.woff2 */,
+				E45784066F0B4B7E8123E68B /* TimesNewRomanMTStd-Italic.eot */,
+				F766EDACF8BF4326A66FB873 /* TimesNewRomanMTStd-Italic.woff */,
+				1637B1EEA4C3433C96CD4B0D /* TimesNewRomanMTStd-Italic.woff2 */,
+				2CC79F75C73143729D990A79 /* TimesNewRomanMTStd.eot */,
+				96496C4BA2D54D5C80076BAC /* TimesNewRomanMTStd.woff */,
+				F30627D56DA64F078B130E63 /* TimesNewRomanMTStd.woff2 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* EnglishLearningAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EnglishLearningAppTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = EnglishLearningAppTests;
+			productName = EnglishLearningAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* EnglishLearningAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* EnglishLearningApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EnglishLearningApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnglishLearningApp;
+			productName = EnglishLearningApp;
+			productReference = 13B07F961A680F5B00A75B9A /* EnglishLearningApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EnglishLearningApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* EnglishLearningApp */,
+				00E356ED1AD99517003FC87E /* EnglishLearningAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AC0FF40FC9CA4B6D89251566 /* Lucida-Calligraphy-Black.otf in Resources */,
+				42C9253CC66A4E63A04A66C3 /* Lucida-Calligraphy-Bold.otf in Resources */,
+				AD833D8A3A00440BB10597F3 /* Lucida-Calligraphy-Italic.ttf in Resources */,
+				E39566C826DD4F2F83FE4FA0 /* Lucida Calligraphy.TTF in Resources */,
+				E74FCF7BE0DD4D078654E565 /* Times-New-Roman-Bold-Italic.ttf in Resources */,
+				137EF773DF3949479764B452 /* Times-New-Roman-Bold.ttf in Resources */,
+				ECB1506D3207497FBA7B618B /* Times-New-Roman-Italic.ttf in Resources */,
+				752DFC0579274867BE6CB467 /* Times-New-Roman.ttf in Resources */,
+				6181500B7B5445C1B5B922E9 /* Times-New-Roman-MTStd-Bold.ttf in Resources */,
+				2B2AFDBE0BF44C0AA9E40D2E /* TimesNewRomanMTStd-Bold.woff in Resources */,
+				DE726C6A8AF243D59803DA4A /* TimesNewRomanMTStd-Bold.ttf in Resources */,
+				2366FF0370394F40B052A343 /* TimesNewRomanMTStd-BoldCond.ttf in Resources */,
+				CAFD9C98026B4C45B9374C44 /* TimesNewRomanMTStd-BoldIt.ttf in Resources */,
+				AEC1B3E920D441218169B84E /* TimesNewRomanMTStd-Cond.ttf in Resources */,
+				FDED0AA50A5947C6B088E64D /* TimesNewRomanMTStd-CondIt.ttf in Resources */,
+				4F1168CCE1684D33B00A90AE /* TimesNewRomanMTStd-Italic.ttf in Resources */,
+				5431476FD29A46B3AD32C755 /* TimesNewRomanMTStd.ttf in Resources */,
+				9E84C0DD684840E785D2E76F /* TimesNewRomanMTStd-Bold.eot in Resources */,
+				273B15E3DD244C068431CEEC /* TimesNewRomanMTStd-Bold.woff2 in Resources */,
+				120A1C371E9A43AC8E4D91BB /* TimesNewRomanMTStd-BoldCond.eot in Resources */,
+				79E00EA87D2A404AAE9F2D40 /* TimesNewRomanMTStd-BoldCond.woff in Resources */,
+				FEDC5C60DD0446F7B6D7BA73 /* TimesNewRomanMTStd-BoldCond.woff2 in Resources */,
+				F19C08CD6DFB42F794447731 /* TimesNewRomanMTStd-BoldIt.eot in Resources */,
+				ACFB9A6F64E34634ACAD0B8E /* TimesNewRomanMTStd-BoldIt.woff in Resources */,
+				42E69115E55B44A2B638209A /* TimesNewRomanMTStd-BoldIt.woff2 in Resources */,
+				F9FBD4D304A146AA83A90351 /* TimesNewRomanMTStd-Cond.eot in Resources */,
+				A516E87CA82B41CB9F758BCC /* TimesNewRomanMTStd-Cond.woff in Resources */,
+				E9F8992B1EA04FF19F53966C /* TimesNewRomanMTStd-Cond.woff2 in Resources */,
+				89FC5517CEC14B0FAC4EC749 /* TimesNewRomanMTStd-CondIt.eot in Resources */,
+				54A5DC168580432793FC7A96 /* TimesNewRomanMTStd-CondIt.woff in Resources */,
+				0334D5463C234B979D5F31E5 /* TimesNewRomanMTStd-CondIt.woff2 in Resources */,
+				A0E013EA420B413FA46B8040 /* TimesNewRomanMTStd-Italic.eot in Resources */,
+				7A38718C84C848198682C644 /* TimesNewRomanMTStd-Italic.woff in Resources */,
+				EA249E04C5EE4B30BC98CAE1 /* TimesNewRomanMTStd-Italic.woff2 in Resources */,
+				930425EAF8BC4682A36ED5FF /* TimesNewRomanMTStd.eot in Resources */,
+				C7179B50B7D64633AC68D6B3 /* TimesNewRomanMTStd.woff in Resources */,
+				D07BFC47266A4ABE8F878981 /* TimesNewRomanMTStd.woff2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnglishLearningApp-EnglishLearningAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnglishLearningApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp/Pods-EnglishLearningApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnglishLearningApp-EnglishLearningAppTests/Pods-EnglishLearningApp-EnglishLearningAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* EnglishLearningAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* EnglishLearningApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-EnglishLearningApp-EnglishLearningAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnglishLearningAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishLearningApp.app/EnglishLearningApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-EnglishLearningApp-EnglishLearningAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = EnglishLearningAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishLearningApp.app/EnglishLearningApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-EnglishLearningApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EnglishLearningApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = EnglishLearningApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-EnglishLearningApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EnglishLearningApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = EnglishLearningApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EnglishLearningAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EnglishLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EnglishLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

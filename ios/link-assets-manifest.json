@@ -1,0 +1,153 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Lucida Calligraphy.TTF",
+      "sha1": "7b9d37726b8609ef3c4266cf96faf4f20b0010ce"
+    },
+    {
+      "path": "src/assets/fonts/Lucida-Calligraphy-Black.otf",
+      "sha1": "0339442bb54d1384eac10da47ac0ab1c23c2edc7"
+    },
+    {
+      "path": "src/assets/fonts/Lucida-Calligraphy-Bold.otf",
+      "sha1": "2372c385210133e7c164f10d17c77b7331da173a"
+    },
+    {
+      "path": "src/assets/fonts/Lucida-Calligraphy-Italic.ttf",
+      "sha1": "40d6214208428606b38fc9accd4bf3c74bffee11"
+    },
+    {
+      "path": "src/assets/fonts/Times-New-Roman-Bold-Italic.ttf",
+      "sha1": "b63fb3094501313ef4c2f5a00b70ad257ccc98a9"
+    },
+    {
+      "path": "src/assets/fonts/Times-New-Roman-Bold.ttf",
+      "sha1": "9c77e8abd7a56d5b7ed6ab93b3bf054d740fb5a9"
+    },
+    {
+      "path": "src/assets/fonts/Times-New-Roman-Italic.ttf",
+      "sha1": "5f3c37b0634f7c6ba9a91a16de5effa0a9266e50"
+    },
+    {
+      "path": "src/assets/fonts/Times-New-Roman-MTStd-Bold.ttf",
+      "sha1": "da9991721fb0764eeaab955530b5c132a3ecfdde"
+    },
+    {
+      "path": "src/assets/fonts/Times-New-Roman.ttf",
+      "sha1": "a937f6db359e6efce0a74a5ab5adc58e1baee58d"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Bold.eot",
+      "sha1": "bdeef8930dfaea3d8da1021c7b1c6db9d334cfc5"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Bold.ttf",
+      "sha1": "da9991721fb0764eeaab955530b5c132a3ecfdde"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Bold.woff",
+      "sha1": "6532a5073206fbbee629680a2ca5ff4df4458da6"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Bold.woff2",
+      "sha1": "e84b7c058fe314931f3acbfb5904dd427f0dabf9"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldCond.eot",
+      "sha1": "6d66046525bfdb082708bfa7125c37c4522f45ad"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldCond.ttf",
+      "sha1": "79268cbac975b16c8d33c148ae5dc734ec12ae69"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldCond.woff",
+      "sha1": "df66fa458ffbd23b7aec9c78fb0e020860694c4c"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldCond.woff2",
+      "sha1": "cecee15cf975bea061c6e430a5f50ac0d5e42fb8"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldIt.eot",
+      "sha1": "30d7163406ff4376053882b2207bb30ac6bc6388"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldIt.ttf",
+      "sha1": "38f7b9180d07ed38fc02a13b537cf469bbb5992e"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldIt.woff",
+      "sha1": "3d819650ec8f267a7cc45cc4b580e9e76bd83758"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-BoldIt.woff2",
+      "sha1": "8fbb81d723b044515e24776d8167f8e993aa5c20"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Cond.eot",
+      "sha1": "bbfc3487beab7fa98d5d46d9e65f692d4c9db85a"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Cond.ttf",
+      "sha1": "445112596f98e1bec725a42cad18065aea04cdd8"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Cond.woff",
+      "sha1": "d33771ec2d79912a854aa696c6ce52e81a5ebf64"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Cond.woff2",
+      "sha1": "d699ffe887d2772b7c9736cbdf85a7d1f5cb5b02"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-CondIt.eot",
+      "sha1": "02a2be2152b16760c9f5d537e674666eb7c85b4c"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-CondIt.ttf",
+      "sha1": "2ee68182fb5d69114079a9cde6c5df2ab7bc080a"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-CondIt.woff",
+      "sha1": "29807defb647cb8008c88d19ea847f42fa290733"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-CondIt.woff2",
+      "sha1": "a45ba0144229c3082e5b48138b28ef486865a9c5"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Italic.eot",
+      "sha1": "eb187d3c6232948191efc638d6b6d538dcc738e2"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Italic.ttf",
+      "sha1": "4f95752ceb95afb13924bf2f3ddd65e47f3189da"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Italic.woff",
+      "sha1": "c2720e13355a943acfed980b65579dd18395e0b4"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd-Italic.woff2",
+      "sha1": "6a4db1b702caf55bf7bac6b3512c6da82622566e"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd.eot",
+      "sha1": "5042c2d63ba31c6db14cb4f33a63a57bae11cfe7"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd.ttf",
+      "sha1": "f2995a810c5b6f0281c26907a606135385160e0a"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd.woff",
+      "sha1": "216b6c8b74cc3844b7e87f024cefe4b31cb76864"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRomanMTStd.woff2",
+      "sha1": "e7a1f5787eae2c4bfce62677392800e156e26a1d"
+    }
+  ]
+}
